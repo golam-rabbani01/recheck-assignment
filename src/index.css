@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.navbar {
+    padding: 8px 15px;
+}
+
+.navbar a {
+    font-size: 14px;
+}
+
+.banner {
+    height: 90px;
+    width: 70px;
+}
