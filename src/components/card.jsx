@@ -20,7 +20,7 @@ export default function TechCard({ tech, isAdded, onToggle }) {
                 <div className="flex items-center justify-between text-[11px] text-gray-400 mb-4 font-medium">
                     <span>{tech.category}</span>
                     <span>{tech.level}</span>
-                    <span className="text-amber-500 font-semibold">★ {tech.rating}</span>
+                    <span className="text-amber-500 font-semibold"> {tech.rating}</span>
                 </div>
 
                 <button
